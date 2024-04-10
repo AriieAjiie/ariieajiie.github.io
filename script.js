@@ -59,8 +59,8 @@ let ucapanSurat;
 let speed = 100;
 
 const kirimpesan = document.getElementById("wa");
-var message = "Berapa Nomor Rekeningnya? Sini Aku Isiin.. :D";
-const whatsappLink = `https://wa.me/6281334081238?text=${encodeURIComponent(message)}`;
+var message = "Mau Minta No rekening, Aku kirim THR nya yaa?";
+const whatsappLink = `https://wa.me/6285708422425?text=${encodeURIComponent(message)}`;
 
 kirimpesan.addEventListener("click", function () {
   window.open(whatsappLink);
